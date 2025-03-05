@@ -1,8 +1,3 @@
+library tiktok_flutter_sdk;
 
-import 'tiktok_flutter_sdk_platform_interface.dart';
-
-class TiktokFlutterSdk {
-  Future<String?> getPlatformVersion() {
-    return TiktokFlutterSdkPlatform.instance.getPlatformVersion();
-  }
-}
+export 'src/tiktok.sdk.g.dart';

@@ -2,6 +2,8 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+
+        maven("https://artifact.bytedance.com/repository/AwemeOpenSDK" )
     }
 }
 
